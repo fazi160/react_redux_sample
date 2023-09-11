@@ -7,8 +7,8 @@ import { decrement, increment, incrementby5 } from '../redux/Counter/counterActi
 
 const Counter = ()=> {
     
-    const count =   useSelector((state) => state.count)
-    const count2 =  useSelector((state) => state.count2)
+    const count =   useSelector((state) => state.counter.count)
+    const count2 =  useSelector((state) => state.counter.count2)
 
     const dispatch = useDispatch()
     return (

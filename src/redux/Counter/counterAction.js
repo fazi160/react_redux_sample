@@ -15,6 +15,7 @@ export const decrement = () =>{
 
 export const incrementby5 = () =>{
      return{
-          type:INCREMENTBY5
+          type:INCREMENTBY5,
+          payload: 5
      }
 }
